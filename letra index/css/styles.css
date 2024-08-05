@@ -1,0 +1,32 @@
+
+header{
+    text-align: center;
+}
+.article-header{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border-style: dashed;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 2%;
+    padding: 2%;
+    background-color: green;
+}
+
+.article-body{
+    border-style: solid;
+    border-color: dimgray;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+.indx-example-1:first-child::first-letter{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
