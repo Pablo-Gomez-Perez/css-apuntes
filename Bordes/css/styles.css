@@ -1,0 +1,25 @@
+.article-header{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border-style: dashed;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+.article-body{
+    border-style: solid;
+    border-color: dimgray;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+.dotted{
+    border-style: dotted;
+}
