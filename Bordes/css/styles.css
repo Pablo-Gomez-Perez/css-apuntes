@@ -8,6 +8,7 @@
     justify-content: center;
     margin: 2%;
     padding: 2%;
+    background-color: green;
 }
 
 .article-body{
@@ -20,6 +21,56 @@
     padding: 2%;
 }
 
+p{
+    padding: 1%;
+}
+
 .dotted{
     border-style: dotted;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.solid{
+    border-style: solid;
+}
+
+.double{
+    border-style: double;
+}
+
+.groove{ border-style: groove;}
+
+.ridge{ border-style: ridge;}
+
+.inset{ border-style: inset;}
+
+.outset{ border-style: outset;}
+
+.none{ border-style: none;}
+
+.hidden{ border-style: hidden;}
+
+/*Los bordes pueden mezclarse en distintos
+estilos*/
+.mix{ border-style: dashed dotted inset solid;}
+
+/*podemos establecer diferentes medidas a los bordes*/
+.bw-example{
+    border-style: solid;
+    border-width: 2px 10px 5px 4px;
+    border-color: blueviolet yellowgreen violet tomato;
+}
+
+.bw-example-short{
+    border: 2px solid blueviolet;
+}
+
+.bw-radius{
+    border-style: solid;
+    border-width: 2px 10px 5px 4px;
+    border-color: blueviolet yellowgreen violet tomato;
+    border-radius: 10px;
 }
