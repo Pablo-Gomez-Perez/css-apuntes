@@ -1,0 +1,22 @@
+
+.header-container{
+    float: left;
+    width: 100%;
+    font-family: "NunitoSans-Bold";
+    text-align: center;
+    /*background-color: aqua;*/    
+}
+
+.image-header{
+    width: 10%;
+    height: 10%;
+    margin: auto;
+}
+
+figure figcaption{
+    color: var(--dark-blue);
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgb(150, 145, 145);
+}
